@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition-duration: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_wraper{
+    max-width: 1100px;
+    margin: auto;
+}
+
+ .card_wraper .card{
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.card_wraper .card .img{
+    width: 70%;
+    margin: auto;
+}
+
+.card_wraper .card .img img{
+    width: 100%;
+}
+
+.card_wraper .card form{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_wraper .card form select{
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_wraper .card form input{
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_wraper .card .text{
+    width: 73%;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_wraper .card .text h1{
+    font-size: 38px;
+}
+
+.card_wraper .card .text p{
+    color: gray;
+}
+
+.card_wraper .card h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.card_wraper .card h4 a{
+    text-decoration: none;
+    color: aqua;
+} 
